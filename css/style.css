@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Global styles */
+* {
+  margin: 0;
+  padding:0;	
+   }
+
+body {
+  background-color:transparent;
+text-align:left; 
+font-family:Verdana,Arial,Helvetica, sans-serif;
+color:#000000;
+font-size:16px;
+ }
+
+/* Application layout classes */
+
+.header
+{
+float:none;
+background-attachment:scroll;
+background:url(../images/carinsurance_header%5B1%5D.jpg);
+background-position:40% 3%;
+background-repeat:no-repeat;
+background-color:#FFF;
+padding-bottom:190px;
+margin-left:15%;
+margin-right:15%;
+border:inset 1px #000;
+}
+
+
+.content
+{
+margin: 0px auto 0;
+margin-left:15%;
+margin-right:15%;
+background:#fff;
+background-repeat:repeat;
+/*float content to left*/
+border:outset 1px #000;
+border-radius: 0px 0px 5px 5px;
+text-align:center;
+padding:5px;
+padding-bottom:10px;
+}
+
+.newadd {
+  float: none; }
+
+#tabs div{
+
+text-align:center;
+margin: 0 0;
+float:none;	
+}
+#showretrieve{
+	display:none;
+}
+
+  
+.login-form {
+  float: none;
+  text-align: center; }
+  .login-form div {
+    padding-bottom: 0.7em;
+    margin-left: 0.1em;
+    margin-top: 0em; }
+
+.register {
+  color: #aaaaaa;
+  text-align: center; }
+  .register p {
+    display: block;
+    color: #C5F1F9;
+    font-size: 1.05em; }
+  .register a {
+    color: #aaaaaa;
+    display: block;
+    text-decoration: none; }
+  .register a:hover {
+    text-decoration: underline; }
+  .register a:link,
+  .register a:active,
+  .register a.here:link,
+  .register a.here:visited {
+    color: #777777; }
+
+input[type=submit],input[type=button],button {
+  cursor: pointer; 
+  }
